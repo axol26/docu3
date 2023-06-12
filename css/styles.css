@@ -1,0 +1,96 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+main{
+  margin-right:0;
+  text-align:justify;
+}
+
+body{
+  font-family:helvetica;
+  width:100%;
+  margin-top:0;
+  margin-left:0;
+}
+
+header:not(.super-title){
+  font-size:24px;
+  font-weight:bold;
+  
+}
+
+pre {
+  width:97%;
+  background:beige;
+  padding: 10px;
+  border-radius:5px;
+
+}
+
+section{
+  border-bottom:1px solid black;
+  padding-top:15px;
+  padding-bottom:auto;
+  padding:15px 10px
+  
+}
+
+#To_Do{
+  border-bottom:none;
+}
+
+#navbar {
+  /* Set the width and height of the navbar */
+  width: 200px;
+  height: 100vh; /* 100% of the viewport height */
+
+  /* Add positioning and background color */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f0f0f0;
+  
+
+}
+
+.super-title{
+  font-size:24px;
+  text-align:left;
+  font-weight:bold;
+  padding: 20px 0 20px 25px;
+}
+
+.edits{
+  padding: 15px 0 15px 25px;
+}
+
+a {
+  text-decoration:none;
+}
+
+.edits:hover{
+  background-color: #dfdfe2;
+  color: #1b1b32;
+}
+
+#main-doc{
+  margin-left:200px;
+
+  
+}
+
+.main-section div{
+  padding-left:15px;
+}
+
+ul, ol{
+  padding-left:25px;
+  font-size:15px;
+}
+
+ul li, ol li{
+  margin-bottom:10px;
+}
